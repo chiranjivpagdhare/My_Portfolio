@@ -1,5 +1,3 @@
-// script.js
-
 document.querySelectorAll('.buttons button').forEach(button => {
   button.addEventListener('click', () => {
     const text = button.textContent.trim().toLowerCase();
