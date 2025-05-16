@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure it takes full height of viewport */
+    flex-direction: column; /* Stack sections vertically */
+  }
+  
+  header {
+    background-color: #3f8edd;
+    padding: 20px 0;
+    border-bottom: 1px solid #4395e7;
+    width: 100%;
+    text-align: center; /* Center the header text */
+    position: relative;  /* To position social box correctly */
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 10px; /* Added space between the title and navigation */
+  }
+  
+  .social-box {
+    display: flex;
+    gap: 20px;
+    position: absolute; /* Positioning social links at top-right corner */
+    right: 20px;
+    top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 00px 0;
+  }
+  
+  .intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    gap: 20px;
+  }
+  
+  .buttons button {
+    margin: 0;
+    padding: 12px 24px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .skills {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .skills p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    justify-content: center; /* Center skill items */
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  .skill img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .skill p {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  .projects {
+    padding: 50px 0;
+    background-color: #007bff; /* Blue background for projects section */
+    color: white; /* White text color to contrast with the blue background */
+  }
+  
+  .projects h2, .contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .projects p, .contact p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background-color: #ffffff; /* White background for individual project cards */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: black; /* Black color for project titles */
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+
+  .courses-internships {
+    padding: 50px 0;
+    background-color: #f0f2f5;
+  }
+  
+  .courses-internships h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .courses-internships p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .courses-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .course {
+    background-color: #ffeb3b; /* Yellow background for the Data Scientist course */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1 1 300px; /* Ensure the courses are responsive */
+  }
+  
+  .course:hover {
+    transform: scale(1.05);
+  }
+  
+  .course:nth-child(1) {
+    background-color:  #FFA500; /* Yellow for Data Scientist */
+  }
+  
+  .course:nth-child(2) {
+    background-color: #4caf50; /* Green for Prompt Engineering */
+  }
+  
+  .course:nth-child(3) {
+    background-color: #2196f3; /* Blue for Java Intern */
+  }
+  
+  .course h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: white; /* White text color for the course titles */
+  }
+  
+  .course p {
+    font-size: 1em;
+    color: white; /* White text color for course description */
+  }
+
+  footer.contact {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+    width: 100%;
+  }
+  
+  footer.contact h2,
+  footer.contact p {
+    color: white;
+  }
+  
+  footer.contact .contact-details p {
+    color: #ccc;
+  }
+  
